@@ -34,4 +34,4 @@ jobs:
 
     - name: Sync output to S3
       run: |
-        aws s3 sync ./_site/ s3://www.tcun.dev --delete
+        aws s3 sync ./_site/ s3://tcun.dev --delete
